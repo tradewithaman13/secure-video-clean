@@ -1,0 +1,24 @@
+{
+  "name": "secure-video",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^12.4.1",
+    "hls.js": "^1.6.13",
+    "jsonwebtoken": "^9.0.2",
+    "next": "^16.0.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "stripe": "^19.1.0",
+    "uuid": "^13.0.0"
+  }
+}

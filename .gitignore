@@ -1,0 +1,21 @@
+# Node / build
+node_modules/
+.next/
+dist/
+
+# Local envs & keys
+.env*
+keys/
+
+# FFmpeg binaries and heavy files
+ffmpeg-*
+*.exe
+*.dll
+
+# HLS segments (do not store in git)
+public/protected_hls/**/*.ts
+public/protected_hls/**/*.m3u8
+
+# IDE / system files
+.DS_Store
+.vscode/
